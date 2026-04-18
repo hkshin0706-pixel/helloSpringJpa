@@ -47,7 +47,7 @@ public class CategoryController {
     // POST /categories/create - 카테고리 등록 처리
     // ─────────────────────────────────────────────────────────────────
     @PostMapping("/create")
-    public String createProduct(@Valid @ModelAttribute CategoryForm categoryForm,
+    public String createCategory(@Valid @ModelAttribute CategoryForm categoryForm,
                                 BindingResult bindingResult,
                                 RedirectAttributes redirectAttributes) {
 
